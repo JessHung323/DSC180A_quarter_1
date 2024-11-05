@@ -11,7 +11,7 @@ Please clone the repository and install the dependencies as follows:
    ```
    pip3 install -r requirements.txt
    ```
-3. After installing the necessary components, navigate to the `data` folder and use the following command to download the necessary Imagenette images for experiment
+3. After installing the necessary components, navigate to the `data` folder create a directory through `mkdir ILSVRC2012` and within the `ILSVRC2012` directory use the following command to download the necessary Imagenette images for experiment
    ```
    wget https://s3.amazonaws.com/fast-ai-imageclas/imagenette2.tgz
    tar -xvzf imagenette2.tgz
